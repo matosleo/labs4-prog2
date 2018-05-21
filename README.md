@@ -18,4 +18,5 @@ $ ./bin/prog1
 ```
 
 ## Dificuldades
-1. ainda em processo de desenvolvimento 
+1. Separar as strings em ordem correta para empilhar
+2. Decidir qual tipo usar para ler a expressão
