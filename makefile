@@ -23,7 +23,7 @@ PROG = $(BIN)/prog2
 CPPFLAGS = -Wall -pedantic -std=c++11 -I$(INC)
 
 # Lista dos arquivos objeto (.o) que formam o binario/executavel final
-OBJS = $(OBJ)/main.o
+OBJS = $(OBJ)/lib_npi.o $(OBJ)/main.o
 
 all : $(OBJS)
 	$(CC) $(LDFLAGS) -o $(PROG) $(OBJS)
@@ -35,8 +35,11 @@ debug: all
 
 # Alvo para a construcao do objeto build/main.o
 # Define os arquivos objeto dos quais main.o depende.
-$(OBJ)/main.o :
+$(OBJ)/main.o : $(OBJ)/lib_npi.o
 	$(CC) $(CPPFLAGS) -c $(SRC)/main.cpp -o $@
+
+$(OBJ)/lib_npi.o :
+	$(CC) $(CPPFLAGS) -c $(SRC)/lib_npi.cpp -o $@
 
 
 # Alvo para a criação dos diretórios padrão de projetos.
