@@ -30,7 +30,7 @@ all : $(OBJS)
 
 # Alvo para a compilação com informações de debug
 # Altera a flag CFLAGS, incluindo as opções -g -O0 e recompila todo o projeto
-debug: CFLAGS += -g -O0
+debug: CPPFLAGS += -g -O0
 debug: all
 
 # Alvo para a construcao do objeto build/main.o
