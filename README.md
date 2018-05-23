@@ -11,10 +11,10 @@ $ make
 ```
 O makefile está configurado para compilar com todas as flags de warnings e ao final gera um arquivo executável no diretório /bin.
 
-## Como rodar
+## Como executar
 No terminal, digite:
 ```bash
-$ ./bin/prog1
+$ ./bin/prog2
 ```
 
 ## Dificuldades
