@@ -14,7 +14,7 @@ O makefile está configurado para compilar com todas as flags de warnings e ao f
 ## Como executar
 No terminal, digite:
 ```bash
-$ ./bin/prog2
+$ ./bin/prog2 <expressao_pos_fixa>
 ```
 
 ## Dificuldades
