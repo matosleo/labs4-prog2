@@ -4,7 +4,7 @@
 * @author   Leonardo Matos (matos_leo95@live.com)
 * @since	17/05/2018
 * @date	    21/05/2018
-* @sa		https://github.com/matosleo/labs4-prog1
+* @sa		https://github.com/matosleo/labs4-prog2
 */
 
 #include <iostream>
